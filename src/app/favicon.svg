@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Outer avocado shape -->
+  <path d="M200 50 C 300 50, 350 175, 350 250 C 350 325, 300 350, 200 350 C 100 350, 50 325, 50 250 C 50 175, 100 50, 200 50" 
+        fill="#2F5233"/>
+  
+  <!-- Inner lighter green flesh -->
+  <path d="M200 80 C 285 80, 320 175, 320 250 C 320 310, 285 320, 200 320 C 115 320, 80 310, 80 250 C 80 175, 115 80, 200 80" 
+        fill="#85C17E"/>
+
+  <!-- Pit -->
+  <circle cx="200" cy="250" r="60" fill="#8B4513"/>
+  
+  <!-- Highlight on pit -->
+  <circle cx="180" cy="230" r="20" fill="#A0522D"/>
+  
+  <!-- Texture lines on flesh -->
+  <path d="M120 150 Q 200 170, 280 150" fill="none" stroke="#2F5233" stroke-width="2"/>
+  <path d="M110 180 Q 200 200, 290 180" fill="none" stroke="#2F5233" stroke-width="2"/>
+  <path d="M100 210 Q 200 230, 300 210" fill="none" stroke="#2F5233" stroke-width="2"/>
+  
+  <!-- Shine/highlight -->
+  <path d="M150 100 Q 180 120, 160 150" fill="none" stroke="#B8E4B5" stroke-width="4"/>
+  <path d="M130 110 Q 160 130, 140 160" fill="none" stroke="#B8E4B5" stroke-width="3"/>
+</svg>

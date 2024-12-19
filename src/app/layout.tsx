@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Prédiction Prix Avocat',
+  title: 'AvocIA - Prédiction du prix des avocats',
   description: 'Application de prédiction du prix des avocats',
 };
 

@@ -131,9 +131,7 @@ export default function PredictionForm() {
                   <input
                     type="number"
                     name="Quality1"
-                    step="0.1"
-                    min="0"
-                    max="1"
+                    step="1"
                     value={formData.Quality1}
                     onChange={handleChange}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
@@ -147,9 +145,7 @@ export default function PredictionForm() {
                   <input
                     type="number"
                     name="Quality2"
-                    step="0.1"
-                    min="0"
-                    max="1"
+                    step="1"
                     value={formData.Quality2}
                     onChange={handleChange}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
@@ -163,9 +159,7 @@ export default function PredictionForm() {
                   <input
                     type="number"
                     name="Quality3"
-                    step="0.1"
-                    min="0"
-                    max="1"
+                    step="1"
                     value={formData.Quality3}
                     onChange={handleChange}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
